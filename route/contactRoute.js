@@ -15,13 +15,13 @@ router.post("/contact", (req, res) => {
     service: "Gmail",
     port: 465,
     auth: {
-      user: "edubabadigital@gmail.com",
-      pass: "use-your-correct-password-here",
+      user: "chathurangarulz@gmail.com",
+      pass: "Chathu6@actc",
     },
   });
   let mailOptions = {
     from: data.email,
-    to: "edubabadigital@gmail.com",
+    to: "chathurangarulz@gmail.com",
     subject: `message from ${data.name}`,
     html: `
 
@@ -39,7 +39,7 @@ router.post("/contact", (req, res) => {
     try {
       if (error)
         return res.status(400).json({ msg: "Please Fill All The Fields!" });
-      res.status(200).json({ msg: "Thank You For Contacting Ehizeex." });
+      res.status(200).json({ msg: "Thank You For Contacting Supun." });
     } catch (error) {
       if (error) return res.status(500).json({ msg: "There is server error" });
     }

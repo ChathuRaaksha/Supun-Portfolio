@@ -67,49 +67,55 @@ const Resume = (props) => {
   const projectsDetails = [
     {
       title: "Personal Portfolio Website",
-      duration: { fromDate: "2020", toDate: "2021" },
+      duration: { fromDate: "2021", toDate: "2022" },
       description:
         "A Personal Portfolio website to showcase all my details and projects at one place.",
       subHeading: "Technologies Used: React JS, Bootsrap",
     },
     {
-      title: "Mobile E-shop ",
+      title: "Automated IT Service Desk ",
       duration: { fromDate: "2020", toDate: "2021" },
       description:
-        "An ecommerce application designed to sell products online wth payment system integration",
+        "A Ticketing System which handles System Issues and includes Chatbot,Knowlege Center,KPI Analysis,Self Learning Portal",
       subHeading:
-        "Technologies Used:  React Native, Mongo DB, Express Js, Node Js, Redux.",
+        "Technologies Used:  React Native, React JS, Oracle, Express Js, MySql, PHP, Node Js, Redux.",
     },
     {
-      title: "Ecommerce Website ",
-      duration: { fromDate: "2020", toDate: "2021" },
+      title: "Area Billing System-CEB ",
+      duration: { fromDate: "2016", toDate: "2018" },
       description:
-        "Online ecommerce website for showcasing and selling products onlne with payment system integration, both Paypal and Stripe",
+        "This is a standalone application which assists for the users in Areas for Bill entry, Master Amendments, SIN Changes in the CEB",
       subHeading:
-        "Technologies Used: Mongo DB, Epress Js, React Js, Node JS, Redux, Bootstrap.",
+        "Technologies Used: JAVA, MYSQL, SQL Server, Informix",
     },
   ];
 
   const resumeDetails = [
     <div className="resume-screen-container" key="education">
       <ResumeHeading
-        heading={"University of Legon Accra, Ghana"}
-        subHeading={"BACHELOR OF SCIENCE INFORMATION TECHNOLOGY"}
+        heading={"Sri Lanka Institute of Information Technology"}
+        subHeading={"BACHELOR OF SCIENCE HONS SP IN INFORMATION TECHNOLOGY"}
         fromDate={"2014"}
         toDate={"2018"}
       />
 
       <ResumeHeading
-        heading={"National Youth Service Corps"}
-        subHeading={"Ministry Of Science And Technogy. Uyo Akwa Ibom State"}
+        heading={"University of Colombo School of Computing"}
+        subHeading={"MASTER OF COMUPTER SCIENCE"}
         fromDate={"2019"}
-        toDate={"2020"}
+        toDate={"2021"}
       />
       <ResumeHeading
         heading={"High School "}
-        subHeading={"Command Secondary School Mbiri"}
-        fromDate={"2007"}
+        subHeading={"ANANDA COLLEGE COLOMBO-10"}
+        fromDate={"2009"}
         toDate={"2012"}
+      />
+       <ResumeHeading
+        heading={"High School "}
+        subHeading={"THURSTAN COLOMBO-07"}
+        fromDate={"1999"}
+        toDate={"2009"}
       />
     </div>,
 
@@ -117,21 +123,20 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
         <ResumeHeading
-          heading={"Ehizeex Technoloy"}
-          subHeading={"FULL STACK DEVELOPER INTERN"}
-          fromDate={"2021"}
+          heading={"Ceylon Electricity Board"}
+          subHeading={"FULL STACK DEVELOPER"}
+          fromDate={"2014"}
           toDate={"Present"}
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            Currently working as MERN stack web and mobile developer and also an
-            online instructor on udemy.
+            Currently working as React Js web and React Native mobile developer.
           </span>
         </div>
         <div className="experience-description">
           <span className="resume-description-text">
-            - Developed an ecommerce website for client with the dashboard for
-            managing the products, managing reviews, users, payment etc. .
+            - Developed an Automate IT Service Desk website for CEB Employees with the dashboard for
+            managing the Issues Tracking, Chatbot, Self-Learning, Monitor, KPI etc. .
           </span>
           <br />
           <span className="resume-description-text">

@@ -7,9 +7,10 @@ import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
 import "./Testimonial.css";
-import lady from "../../../src/img/Testimonial/lady.png";
-import mike from "../../../src/img/Testimonial/mike.png";
-import man from "../../../src/img/Testimonial/man.png";
+import lady from "../../../src/img/Testimonial/meththa.png";
+import mike from "../../../src/img/Testimonial/thilan.png";
+import lakmal from "../../../src/img/Testimonial/Lakmal.png";
+import Fernando from "../../../src/img/Testimonial/Fernando.png";
 import shape from "../../../src/img/Testimonial/shape-bg.png";
 
 export default function Testimonial(props) {
@@ -62,7 +63,7 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      I patronized Ehizeex and when He delivered, I honestly
+                      I patronized Supun and when He delivered, I honestly
                       fell in love with the project He is a very honest guy and
                       he delivers ontime.
                       <i className="fa fa-quote-right" />
@@ -87,8 +88,8 @@ export default function Testimonial(props) {
                   </div>
                   <div className="client-info">
                     <img src={lady} alt="no internet connection"></img>
-                    <h5>Daisy Dominic</h5>
-                    <p>CEO InansGlobal</p>
+                    <h5>Meththa Perera</h5>
+                    <p>Manager IT CEB</p>
                   </div>
                 </div>
               </div>
@@ -123,8 +124,8 @@ export default function Testimonial(props) {
                   </div>
                   <div className="client-info">
                     <img src={mike} alt="no internet connection"></img>
-                    <h5>Mikel</h5>
-                    <p>CEO MikeTech</p>
+                    <h5>Thilan</h5>
+                    <p>CEO Chamthkaara IT Solutions</p>
                   </div>
                 </div>
               </div>
@@ -133,7 +134,7 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      When he delivered my job, my head spinned, it was so nice
+                      Fast Learner, it was so nice
                       and he implemented every functionality i requested for.
                       Thank you.
                       <i className="fa fa-quote-right" />
@@ -157,9 +158,9 @@ export default function Testimonial(props) {
                     </ul>
                   </div>
                   <div className="client-info">
-                    <img src={lady} alt="no internet connection"></img>
-                    <h5>Daisy Dominic</h5>
-                    <p>CEO InansGlobal</p>
+                    <img src={Fernando} alt="no internet connection"></img>
+                    <h5>Dr.MGNAS Fernando</h5>
+                    <p>Senior Lecturer-UCSC</p>
                   </div>
                 </div>
               </div>
@@ -168,7 +169,7 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      This guy is incredibly awesome, I hired him and when He
+                      This guy is incredibly awesome, When He
                       delivered, I honestly fell in love with the project. He is
                       indeed a great guy,
                       <i className="fa fa-quote-right" />
@@ -192,9 +193,9 @@ export default function Testimonial(props) {
                     </ul>
                   </div>
                   <div className="client-info">
-                    <img src={man} alt="no internet connection"></img>
-                    <h5>John Smith</h5>
-                    <p>Bnaker</p>
+                    <img src={lakmal} alt="no internet connection"></img>
+                    <h5>Dr Lakmal Rupasinghe</h5>
+                    <p>Senior Lecturer-SLIIT</p>
                   </div>
                 </div>
               </div>

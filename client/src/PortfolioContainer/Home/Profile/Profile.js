@@ -10,27 +10,27 @@ export default function Profile() {
         <div className="profile-details">
           <div className="colz">
             <div className="colz-icon">
-              <a href="https://web.facebook.com/?_rdc=1&_rdr">
+              <a href="https://www.facebook.com/ChathuRaaksha/">
                 <i className="fa fa-facebook-square" />
               </a>
-              <a href="#">
-                <i className="fa fa-google-plus-square" />
+              <a  href='https://www.instagram.com/chathu.raaksha6/'>
+                 <i className="fa fa-instagram" />
               </a>
-              <a href="https://www.instagram.com/instructor_ehizeex/">
-                <i className="fa fa-instagram" />
+              <a href='https://www.youtube.com/c/ChathuRaaksha'>
+                        <i className='fa fa-youtube-square'></i>
               </a>
-              <a href="https://www.youtube.com/channel/UCSSr5ZDFbilpZ592_ycoAwA">
-                <i className="fa fa-youtube-square" />
+              <a href='https://www.linkedin.com/in/supun-chathuranga-190372148/'>
+                        <i className='fa fa-linkedin'></i>
               </a>
-              <a href="https://twitter.com/Ehiedu_baba">
-                <i className="fa fa-twitter" />
+              <a href='https://github.com/ChathuRaaksha/'>
+                        <i className='fa fa-github'></i>
               </a>
             </div>
           </div>
           <div className="profile-details-name">
             <span className="primary-text">
               {" "}
-              Hello, I'M <span className="highlighted-text">Ehiedu</span>
+              Hello, I'M <span className="highlighted-text">Supun</span>
             </span>
           </div>
           <div className="profile-details-role">
@@ -43,8 +43,6 @@ export default function Profile() {
                     "Enthusiastic Dev 😎",
                     1000,
                     "Full stack Developer 💻",
-                    1000,
-                    "Mern stack Dev 📱",
                     1000,
                     "Cross Platform Dev 🔴",
                     1000,
@@ -63,7 +61,7 @@ export default function Profile() {
             <button className="btn primary-btn"
             onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
             > Hire Me </button>
-            <a href="ehizcv.pdf" download="Ehiedu Ehizcv.pdf">
+            <a href='Chathuranga_CV.pdf' download='Supun CV.pdf'>
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
           </div>
